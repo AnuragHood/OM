@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<mat-grid-list  cols="3" rowHeight="1:1.4">
+<mat-grid-list  rowHeight="1:1.4" [cols]="breakpoint" (window:resize)="onResize($event)">
   <mat-grid-tile><mat-card class="example-card">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
