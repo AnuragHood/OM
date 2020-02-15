@@ -56,3 +56,7 @@ $OM-theme: mat-light-theme($OM-primary, $OM-accent, $OM-warn);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+img{
+  width:340px !important;
+  height:300px !important;
+}
