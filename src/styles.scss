@@ -36,21 +36,21 @@ $OM-theme: mat-light-theme($OM-primary, $OM-accent, $OM-warn);
   /* Mobile Styles */
   @media only screen and (max-width: 400px) {
     body {
-      background-color: white; /* Red */
+      background-color: #F9FBE7;
     }
   }
 
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     body {
-      background-color: white; /* Yellow */
+      background-color: #F9FBE7;
     }
   }
 
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
     body {
-      background-color: white; /* Blue */
+      background-color: #F9FBE7;
     }
   }
 
